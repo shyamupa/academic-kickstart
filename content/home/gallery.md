@@ -8,20 +8,16 @@ date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Artwork"
-subtitle = "Click on an image to view caption and open gallery"
+subtitle = "Some of my sketches"
 
 # Order that this section will appear in.
-weight = 15
+weight = 100
 
 +++
 {{< load-photoswipe >}}
 {{< gallery hover-effect="none" caption-position="none" >}}
-# {{< gallery dir="/img/memes/" >}}
 {{< figure src="/img/memes/nlp-thumb.jpg" link="/img/memes/nlp.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
-# {{< figure link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
+{{< figure src="/img/me_two-thumb.jpg" link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
+{{< figure src="/img/memes/nlp-thumb.jpg" link="/img/memes/nlp.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
+{{< figure src="/img/me_two-thumb.jpg" link="/img/me_two.jpg" caption="A. gossypii Cdc12 RNA smFISH" >}}
 {{< /gallery >}}
